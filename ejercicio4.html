@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Mayor de tres números</title>
+	<!-- Agregamos los estilos de Bootstrap -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" />
+</head>
+<body>
+	<div class="container mt-5">
+		<h1>Mayor de tres números</h1>
+		<form method="POST" action="procesar5.php">
+			<div class="mb-3">
+                <small class="form-text text-muted">Ingrese tres números distintos.</small>
+                <br>
+				<label for="num1" class="form-label">Número 1:</label>
+				<input type="number" class="form-control" id="num1" name="num1" required>
+			</div>
+			<div class="mb-3">
+				<label for="num2" class="form-label">Número 2:</label>
+				<input type="number" class="form-control" id="num2" name="num2" required>
+			</div>
+			<div class="mb-3">
+				<label for="num3" class="form-label">Número 3:</label>
+				<input type="number" class="form-control" id="num3" name="num3" required>
+			</div>
+			<button type="submit" class="btn btn-primary">Calcular</button>
+		</form>
+		<br>
+        <div class="mb-3">
+            <button type="button" class="btn btn-secondary" onclick="window.location.href='bienvenidos.html'">
+                Atras
+            </button>
+        </div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js" ></script>
+</body>
+</html>

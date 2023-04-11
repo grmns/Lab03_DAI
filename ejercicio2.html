@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayor o Menor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1>Mayor o Menor</h1>
+        <form method="post" action="procesar3.php">
+            <div class="mb-3">
+                <label for="num1" class="form-label">Primer número:</label>
+                <input type="number" class="form-control" id="num1" name="num1" required>
+            </div>
+            <div class="mb-3">
+                <label for="num2" class="form-label">Segundo número:</label>
+                <input type="number" class="form-control" id="num2" name="num2" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Calcular</button>
+        </form>
+        <br>
+        <div class="mb-3">
+            <button type="button" class="btn btn-secondary" onclick="window.location.href='bienvenidos.html'">
+                Atras
+            </button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
